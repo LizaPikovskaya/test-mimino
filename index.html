@@ -4,12 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"/>
     <link rel="stylesheet" href="./css/index.css">
-    <title>Document</title>
+    <title>Homepage</title>
 </head>
 <body>
-<header></header>
-<main></main>
+<header class="header">
+    <div class="header-container container">
+        <a href="#" class="logo-link link">MIMIHO</a>
+        <list class="nav-list list">
+            <li class="nav-item">
+                <a class="nav-page-link link" href="#">Ресторан
+                </a>
+               <a class="phone-link link" href="tel:0955559533">
+                <svg class="icon-phone" width="24" height="24">
+                    <use href="./img/svg/sprite-defs.svg#icon-phone"></use>
+                </svg>
+                <span class="number-link">095 555 95 33</span>
+            </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-page-link link" href="#">Готель
+                </a> 
+               <a class="phone-link link" href="tel:0668491089">
+                <svg class="icon-phone" width="24" height="24">
+                    <use href="./img/svg/sprite-defs.svg#icon-phone"></use>
+                </svg>
+                <span class="number-link">066 849 10 89</span>
+            </a>
+            </li>
+        </list>
+        <list class="social-list list">
+            <li class="social-item">
+                <a href="#" class="social-link">
+                <svg class="social-icon" width="24" height="24">
+                    <use href="./img/svg/sprite-defs.svg#icon-instagram"></use>
+                </svg>
+            </a></li>
+            <li class="social-item"><a href="#" class="social-link">
+                <svg class="social-icon" width="20" height="20">
+                    <use href="./img/svg/sprite-defs.svg#icon-facebook"></use>
+                </svg>
+            </a></li>
+            <li class="social-item"><a href="#" class="social-link">
+                <svg class="social-icon" width="24" height="24">
+                    <use href="./img/svg/sprite-defs.svg#icon-telegram"></use>
+                </svg>
+            </a></li>
+        </list>
+    </div>
+</header>
+<main>
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero-title">МІМІНО</h1>
+            <h2 class="hero-description">Ресторанно-готельний комплекс</h2>
+            <p class="hero-text">СМАК ЖИТТЯ 24/7</p>
+            <a href="#" class="address-link">
+                <svg class="icon-location" width="20" height="20">
+                    <use href="./img/svg/sprite-defs.svg#icon-location"></use>
+                </svg>
+                <address class="address">Україна, м. Полтава, вул. Маршала Бірюзова, 15</address>
+            </a>
+            <list class="order-list">
+                <li class="order-item">
+                    <button class="order-button">Забронювати столик</button>
+                </li>
+                <li class="order-item">
+                    <button class="order-button">Забронювати номер</button>
+                </li>
+            </list>
+        </div>
+    </section>
+</main>
 <footer></footer>
 </body>
 </html>

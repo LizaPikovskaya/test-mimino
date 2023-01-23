@@ -1,4 +1,23 @@
+@font-face {
+	font-family: 'Film P3';
+	src: url('../../sass/fonts/FilmP3/FilmP3Bold.eot');
+	src: local('вє'), url('../../sass/fonts/FilmP3/FilmP3Bold.woff') format('woff'), url('../../sass/fonts/FilmP3/FilmP3Bold.ttf') format('truetype'), url('../../sass/fonts/FilmP3/FilmP3Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+:root {
+  --accent-color: #F3C653;
+  --primary-text-color: #5F5F5F;
+  --secondary-text-color: #C79002;
+}
 
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+}
+  
   .list {
     list-style: none;
   }
@@ -48,20 +67,22 @@
   }
 
   .container {
+    max-width: 100%;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+
   }
   
   @media screen and (min-width: 414px) {
     .container {
-      width: 384px;
+      width: 414px;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
   @media screen and (min-width: 1024px) {
     .container {
-      width: 930px;
+      width: 1024px;
       padding-left: 47px;
       padding-right: 47px;
     }
@@ -69,7 +90,7 @@
   
   @media screen and (min-width: 1280px) {
     .container {
-      width: 1110px;
+      width: 1280px;
       padding-left: 85px;
       padding-right: 85px;
     }

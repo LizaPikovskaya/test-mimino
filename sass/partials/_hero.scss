@@ -1,0 +1,47 @@
+.hero {
+    padding-top: 126px;
+    padding-bottom: 20px;
+    background-color: grey;
+}
+.hero-title {
+    font-family: 'Film P3';
+    font-weight: 700;
+// font-size: 96px;
+line-height: calc(103 / 96);
+letter-spacing: 0.3em;
+color: #FFFFFF;
+}
+.hero-description {
+
+font-size: 16px;
+line-height: calc(20 / 16);
+color: #FFFFFF;
+}
+.hero-text {
+font-family: 'Times New Roman';
+font-weight: 700;
+font-size: 32px;
+line-height: calc(37 / 32);
+letter-spacing: 0.05em;
+color: #FFFFFF;
+}
+.address-link {
+    display: inline-flex;
+    padding: 8px 6px 9px 6px;
+    align-items: center;
+border: 1px solid rgba(243, 198, 83, 0.7);
+border-radius: 2px;
+}
+
+.address {
+    margin-left: 8px;
+    font-style: normal;
+    font-weight: 400;
+line-height: calc(15 / 12);
+letter-spacing: 0.01em;
+color: #E5E5E5;
+}
+// .address-link > span {
+//     display: block;
+//     max-width: 200px;
+// }
